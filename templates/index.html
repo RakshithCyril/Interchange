@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="../images/fav.PNG" type="image/x-icon">
+<style>
+body{
+background:#00000080;
+        background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    height: auto;
+    background-image: url('/static/images/background.png')})
+
+}
+header{
+    width: 500px;
+}
+header h1{
+margin-left: 60px;
+    margin-top: 60px;
+    /* font-family: 'Smooch', cursive; */
+    font-family: 'Staatliches', cursive;
+    color:white;
+    font-size: 64px;
+}
+header h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: white;
+    margin-left:200px;
+}
+label{
+    display: block;
+    font-weight: 600;
+    color: white;
+}
+select{
+    width: 200px;
+    border: 2px solid transparent;
+    background: #ffffffd4;
+    border-radius:5px ;
+    margin-bottom:10px ;
+
+}
+select:hover{
+    border: 2px solid #FB9F3F;
+}
+form{
+
+    margin: 80px 0px 50px 80px;
+}
+.test{
+    margin-left: 80px;
+}
+button{
+    display: block;
+    margin:30px auto 20px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    background: #F29534;
+    color: white;
+    padding: 5px 10px;
+}
+button:hover{
+    background: #cb6702;
+}
+.row{
+    /* border: 1px solid black; */
+    width: 500px;
+}
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interchange</title>
+</head>
+<body>
+    <header>
+        <h1>Interchange </h1>
+        <h3>Fueled by Ryan & M3llow!</h3>
+    </header>   
+    <form action="/post" method="post">
+        <div class="row">
+            <div class="col-md-5">
+                <label for="year"> Enter Year : </label>
+                <select name="year" id="year">
+                    <option value="Select">Select Year</option>
+                    <option value="2021">2021</option>
+                     <option value="2020">2020</option>
+                             <option value="2019">2019</option>
+                             <option value="2018">2018</option>
+                             <option value="2017">2017</option>
+                             <option value="2016">2016</option>
+                             <option value="2015">2015</option>
+                             <option value="2014">2014</option>
+                             <option value="2013">2013</option>
+                             <option value="2012">2012</option>
+                             <option value="2011">2011</option>
+                             <option value="2010">2010</option>
+                             <option value="2009">2009</option>
+                             <option value="2008">2008</option>
+                             <option value="2007">2007</option>
+                             <option value="2006">2006</option>
+                             <option value="2005">2005</option>
+                             <option value="2004">2004</option>
+                             <option value="2003">2003</option>
+                             <option value="2002">2002</option>
+                             <option value="2001">2001</option>
+                             <option value="2000">2000</option>
+                             <option value="1999">1999</option>
+                             <option value="1998">1998</option>
+                             <option value="1997">1997</option>
+                             <option value="1996">1996</option>
+                             <option value="1995">1995</option>
+                             <option value="1994">1994</option>
+                             <option value="1993">1993</option>
+                             <option value="1992">1992</option>
+                             <option value="1991">1991</option>
+                             <option value="1990">1990</option>
+                             <option value="1989">1989</option>
+                             <option value="1988">1988</option>
+                             <option value="1987">1987</option>
+                             <option value="1986">1986</option>
+                             <option value="1985">1985</option>
+                             <option value="1984">1984</option>
+                             <option value="1983">1983</option>
+                             <option value="1982">1982</option>
+                             <option value="1981">1981</option>
+                             <option value="1980">1980</option>
+                             <option value="1979">1979</option>
+                             <option value="1978">1978</option>
+                             <option value="1977">1977</option>
+                             <option value="1976">1976</option>
+                             <option value="1975">1975</option>
+                             <option value="1974">1974</option>
+                             <option value="1973">1973</option>
+                             <option value="1972">1972</option>
+                             <option value="1971">1971</option>
+                             <option value="1970">1970</option>
+                             <option value="1969">1969</option>
+                             <option value="1968">1968</option>
+                             <option value="1967">1967</option>
+                             <option value="1966">1966</option>
+                             <option value="1965">1965</option>
+                             <option value="1964">1964</option>
+                             <option value="1963">1963</option>
+                             <option value="1962">1962</option>
+                             <option value="1961">1961</option>
+                             <option value="1960">1960</option>
+                 </select>
+            </div>
+            <div class="col-md-5 test">
+                <label for="make">Enter Make : </label>
+                <select name="make" id="make" required>
+                    <option value="Select">Select Make</option>
+                    <option value="AMC">AMC</option>
+                    <option value="Acura">Acura</option>
+                    <option value="Alfa_Romeo">Alfa-Romeo</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="British_Leyland">British-Leyland</option>
+                    <option value="Buick">Buick</option>
+                    <option value="Cadillac">Cadillac</option>
+                    <option value="Chevy">Chevy</option>
+                    <option value="Chrysler">Chrysler</option>
+                    <option value="Cooper">Cooper</option>
+                    <option value="Daewoo">Daewoo</option>
+                    <option value="Daihatsu">Daihatsu</option>
+                    <option value="Dodge">Dodge</option>
+                    <option value="Eagle">Eagle</option>
+                    <option value="Fiat_Lancia">Fiat-Lancia</option>
+                    <option value="Ford">Ford</option>
+                    <option value="GM">GM</option>
+                    <option value="GMC">GMC</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hummer">Hummer</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Infiniti">Infiniti</option>
+                    <option value="International">International</option>
+                    <option value="Isuzu">Isuzu</option>
+                    <option value="Jaguar">Jaguar</option>
+                    <option value="Jeep">Jeep</option>
+                    <option value="Land_Rover">Land-Rover</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Lincoln">Lincoln</option>
+                    <option value="Mazda">Mazda</option>
+                    <option value="Mercedes_Benz">Mercedes-Benz</option>
+                    <option value="Mercury">Mercury</option>
+                    <option value="Mitsubishi">Mitsubishi</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Oldsmobile">Oldsmobile</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Peugeot">Peugeot</option>
+                    <option value="Plymouth">Plymouth</option>
+                    <option value="Pontiac">Pontiac</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Rover">Rover</option>
+                    <option value="Saab">Saab</option>
+                    <option value="Saturn">Saturn</option>
+                    <option value="Scion">Scion</option>
+                    <option value="Subaru">Subaru</option>
+                    <option value="Suzuki">Suzuki</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Yugo">Yugo</option>
+                </select>
+            </div>
+            <div class="col-md-5 ">
+                <label for="model">Enter Model : </label>
+                <select name="model" id="model">
+                    <option value="Select">Select  Model</option>
+                </select>
+            </div>
+            <div class="col-md-5 test">
+                <label for="cat">Enter categories : </label>
+                <select name="cat" id="cat">
+                    <option value="Select">Select Categories</option>
+                    <option value="Air and Fuel">Air and Fuel </option>
+                   <option value="Axle">Axle </option>
+                   <option value="Brakes">Brakes </option>
+                   <option value="Center Body">Center Body </option>
+                   <option value="Cooling and Heating">Cooling and Heating </option>
+                   <option value="Doors">Doors </option>
+                   <option value="Electrical">Electrical </option>
+                   <option value="engine"> Engine </option>
+                   <option value="Engine Accessories">Engine Accessories </option>
+                   <option value="Entertainment">Entertainment </option>
+                   <option value="Front Body">Front Body</option>
+                   <option value="Glass and Mirrors">Glass and Mirrors </option>
+                   <option value="Interior">Interior </option>
+                   <option value="Lights">Lights </option>
+                   <option value="Rear Body">Rear Body </option>
+                   <option value="Safety">Safety </option>
+                   <option value="Suspension-Steering"> Suspension-Steering</option>
+                   <option value="Transmission">Transmission </option>
+                   <option value="Wheels">Wheels </option>
+               </select>
+            </div>
+            <div class="col-md-5">
+                <label for="part">Enter Part : </label>
+                <select name="part" id="part">
+                    <option value="Select">Select Part</option>
+                </select>
+            </div>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- <div style="margin-top: 500px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus optio nemo facilis repellendus alias esse iste iusto dolores dolor delectus aut nesciunt, dicta obcaecati sequi est. Possimus, laboriosam ipsum.</p></div> -->
+
+
+
+
+
+
+
+
+
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script>
+    const category = [
+    {cat:"Air and Fuel","test": [ "336-air-flow-meter", "338-air-tube-resonator", "320-carburetor", "371-exhaust-fluid-pump", "346-filter-adapter", "374-filter-water-separator", "178-fuel-cap", "347-fuel-cooler", "179-fuel-filler-neck", "259-fuel-gauge", "322-fuel-injection-parts", "345-fuel-lines", "609-fuel-pacer-system", "323-fuel-pump", "197-fuel-tank", "637-fuel-tank-send-unit", "375-fuel-vapor-canister", "337-throttle-body"]},
+    {cat:"Axle", "test": [ "446-4wd-axle-actuator", "438-axle-flange", "437-axle-housing", "499-axle-parts-misc", "447-axle-shaft", "440-carrier", "439-carrier-case", "444-differential", "443-differential-case", "442-differential-flange", "441-differential-parts", "449-differential-side-gears", "434-front-axle", "430-front-drive-shaft", "435-rear-axle", "431-rear-drive-shaft", "445-ring-gear-pinion"]},
+    {cat:"Brakes","test":[ "545-anti-lock-brake-part", "543-backing-plate-front", "544-backing-plate-rear", "541-brake-master-cylinder", "534-brake-parts-misc-front", "535-brake-parts-misc-rear", "539-brake-proportioning-valve", "542-brake-shoes-pads", "536-caliper", "547-emergency-brake-parts", "530-front-brakes", "538-hub", "537-locking-hubs", "546-pedal-brake-clutch", "540-power-brake-booster", "533-rear-brakes"]},
+    {cat:"Center Body","test": ["139-a-pillar", "164-cab-clip", "198-center-pillar", "635-convertible-top-lift", "634-convertible-top-motor", "123-cowl-vent-panel", "196-floor-pan", "148-luggage-rack", "154-pickup-cab", "156-pickup-cab-corner", "186-rocker-panel", "152-roof", "628-roof-motor", "122-running-board", "212-seat-belt-rear", "153-sunroof-panel-assm"]},
+    {cat:"Cooling and Heating","test": ["682-ac-compressor", "684-ac-compressor-clutch", "679-ac-condenser", "680-ac-evaporator", "681-ac-evaporator-housing", "683-ac-hoses", "686-ac-receiver-drier", "656-ac-selector", "651-ac-wire-harness", "670-air-shutter", "615-blower-motor", "671-coolant-reservoir", "677-heater", "676-heater-core", "678-heater-housing", "685-heater-ac-parts", "675-radiator", "672-radiator-cover-baffle", "674-radiator-fan-motor", "673-radiator-shroud", "697-refrigerant", "623-resistor-electrical", "655-temperature-control"]},
+    {cat:"Doors","test":[ "129-door-handle-exterior", "129-door-handle-exterior", "229-door-handle-interior", "229-door-handle-interior", "127-door-moulding-front", "127-door-moulding-front", "137-door-moulding-rear", "137-door-moulding-rear", "205-door-trim-panel-rear", "205-door-trim-panel-rear", "126-door-vent-window-regulator-front", "126-door-vent-window-regulator-front", "226-door-window-crank-front", "226-door-window-crank-front", "227-door-window-crank-rear", "227-door-window-crank-rear", "642-electric-door-motor", "642-electric-door-motor", "120-front-door", "120-front-door", "277-front-door-glass", "277-front-door-glass", "124-front-door-hinge", "124-front-door-hinge", "641-front-door-switch", "641-front-door-switch", "204-front-door-trim-panel", "204-front-door-trim-panel", "280-front-door-vent-glass", "280-front-door-vent-glass", "125-front-window-regulator", "125-front-window-regulator", "617-power-window-motor", "617-power-window-motor", "140-rear-back-door", "140-rear-back-door", "278-rear-door-glass", "278-rear-door-glass", "133-rear-door-hinge", "133-rear-door-hinge", "279-rear-door-vent-glass", "279-rear-door-vent-glass", "130-rear-side-door", "130-rear-side-door", "135-rear-window-regulator", "135-rear-window-regulator", "128-side-view-mirror", "128-side-view-mirror"]},
+    {cat:"Electrical","test": ["651-ac-wire-harness", "601-alternator", "645-antenna", "638-audio-equipment-radio", "636-automatic-headlamp-dimmer", "167-backup-light", "600-battery", "607-battery-tray", "615-blower-motor", "650-body-wire-harness", "596-camera-projector", "591-chassis-ecm", "652-circuit-boards-misc", "629-column-switch", "660-conv-invert-charger", "116-corner-park-light", "624-cruise-speed-regulator", "649-dash-wire-harness", "659-dash-interior-seat-switch", "642-electric-door-motor", "699-electrical-misc", "592-electronic-partsmisc", "590-engine-ecm", "648-engine-wire-harness", "182-fog-lamp-rear", "641-front-door-switch", "663-fuse-box-cabin", "646-fuse-box-engine", "625-gauges-all", "603-generator", "114-headlight", "619-headlight-motor", "176-high-mounted-stop-light", "633-ignition-switch", "594-info-gps-tv-screen", "255-instrument-cluster", "647-lamp-wiring-harness", "175-license-plate-light", "640-lid-motor-pull-down", "643-lock-actuator", "657-misc-wire-harness", "617-power-window-motor", "674-radiator-fan-motor", "662-rear-door-switch", "168-rear-side-marker", "618-rear-wiper-motor", "614-relay-electrical", "623-resistor-electrical", "664-running-board-motor", "644-speaker", "258-tachometer", "166-tail-light", "655-temperature-control", "658-transmission-wire-harness", "372-vacuum-pump", "602-voltage-regulator", "620-windshield-wiper-motor"]},
+    {cat:"engine","test":[ "319-air-cleaner", "310-belt-tensioner", "305-camshaft", "349-camshaft-housing", "313-connecting-rod", "324-coolant-pump", "303-crankshaft", "302-cylinder-block", "306-cylinder-head", "300-engine", "351-engine-cover", "318-engine-oil-cooler", "344-engine-pulley-misc", "346-filter-adapter", "340-fuel-cell", "259-fuel-gauge", "309-harmonic-balancer", "329-intake-manifold", "311-oil-pan", "312-oil-pump", "304-piston", "307-rocker-arm", "314-short-cylinder-block", "690-spark-plug", "315-timing-chain-belt", "308-timing-cover", "316-timing-gears"]},
+    {cat:"Engine Accessories","test":[ "682-ac-compressor", "336-air-flow-meter", "341-air-injection-pump", "338-air-tube-resonator", "601-alternator", "653-body-sensor", "342-brackets-misc", "320-carburetor", "335-catalytic-converter", "610-coil-ignitor", "606-distributor", "608-egr", "343-engine-mounts", "318-engine-oil-cooler", "399-engine-parts-misc", "344-engine-pulley-misc", "328-exhaust", "330-exhaust-crossover-pipe", "373-exhaust-fluid-tank", "327-exhaust-manifold", "331-exhaust-pipe", "334-exhaust-resonator", "325-fan-blade", "326-fan-clutch", "346-filter-adapter", "374-filter-water-separator", "322-fuel-injection-parts", "345-fuel-lines", "609-fuel-pacer-system", "323-fuel-pump", "375-fuel-vapor-canister", "317-intercooler", "333-muffler", "553-power-steering-pump", "604-starter-motor", "605-starter-solenoid", "332-tail-pipe", "348-thermostat-housing", "337-throttle-body", "321-turbo-supercharger", "372-vacuum-pump", "376-vacuum-pressure-tank", "350-valve-cover"]},
+    {cat:"Entertainment","test": ["645-antenna", "638-audio-equipment-radio", "596-camera-projector", "594-info-gps-tv-screen", "644-speaker"]},
+    {cat:"Front Body","test": ["139-a-pillar", "670-air-shutter", "183-belly-pan-lwr-shield", "145-bumper-end-cap", "106-bumper-guard-front", "108-bumper-shock", "116-corner-park-light", "119-cowl", "123-cowl-vent-panel", "110-fender", "111-fender-flare-extension", "113-fender-moulding", "105-front-bumper", "101-front-bumper-cover", "107-front-bumper-reinforcement", "100-front-clip", "103-front-spoiler", "104-grille", "102-header-panel", "632-headlamp-washer-motor", "631-headlamp-wiper-motor", "114-headlight", "630-headlight-door-cover", "586-hitch-tow-hook-winch", "117-hood", "118-hood-hinge", "121-hood-strut", "112-inner-fender", "565-inner-fender-liner", "109-radiator-core-support", "627-wash-reservoir", "269-windshield-frame", "270-windshield-glass", "622-windshield-washer-motor", "620-windshield-wiper-motor", "626-wiper-arm", "621-wiper-transmission"]},
+    {cat:"Glass and Mirrors","test": ["275-back-glass", "277-front-door-glass", "280-front-door-vent-glass", "284-quarter-glass", "278-rear-door-glass", "279-rear-door-vent-glass", "267-rear-view-mirror", "288-roof-glass", "128-side-view-mirror", "289-special-glass", "270-windshield-glass"]},
+    {cat:"Interior","test": [ "234-accelerator-parts", "244-ash-tray-lighter", "231-cargo-cover", "222-carpet-front", "223-carpet-rear", "256-clock", "261-clock-spring", "200-complete-interior", "241-console-front", "245-console-rear", "230-convertible-boot", "119-cowl", "250-dash", "254-dash-bezel", "252-dash-pad", "251-dash-panel", "232-floor-mat", "204-front-door-trim-panel", "202-front-seat", "203-front-seat-track", "260-glove-box", "224-headliner", "565-inner-fender-liner", "255-instrument-cluster", "299-interior-parts-misc", "221-parcel-shelf", "267-rear-view-mirror", "149-roll-bar", "210-seat-belt-front", "212-seat-belt-rear", "612-seat-motor", "215-seat-rear", "239-shift-lever-linkage", "257-speedometer", "237-steering-shaft", "235-steering-wheel", "268-sun-visor", "258-tachometer", "220-third-seat-station-wagon-van", "242-transmission-shift", "225-trim-panel-misc", "263-window-shade"]},
+    {cat:"Lights","test": ["636-automatic-headlamp-dimmer", "167-backup-light", "116-corner-park-light", "182-fog-lamp-rear", "114-headlight", "619-headlight-motor", "176-high-mounted-stop-light", "175-license-plate-light", "262-misc-lamps", "168-rear-side-marker", "166-tail-light"]},
+    {cat:"Rear Body","test": ["185-back-glass-regulator", "167-backup-light", "146-bed-liner", "199-body-parts-misc", "192-bumper-filler-panel", "193-bumper-guard-rear", "373-exhaust-fluid-tank", "196-floor-pan", "182-fog-lamp-rear", "178-fuel-cap", "177-fuel-filler-door", "179-fuel-filler-neck", "172-hatchback-strut", "176-high-mounted-stop-light", "586-hitch-tow-hook-winch", "175-license-plate-light", "171-lid-gate-moulding", "155-pickup-box", "158-pickup-box-floor-pan", "157-pickup-box-front-panel", "161-quarter-extension", "165-quarter-moulding", "160-quarter-panel", "159-quarter-repair-panel", "163-quarter-window-regulator", "190-rear-bumper", "187-rear-bumper-cover", "191-rear-bumper-reinforcement", "150-rear-clip", "168-rear-side-marker", "169-rear-spoiler", "151-rear-top-section", "188-rear-washer-motor", "618-rear-wiper-motor", "189-rocker-panel-moulding", "162-skirt", "153-sunroof-panel-assm", "195-tail-finish-panel", "166-tail-light", "194-tail-panel", "184-tailgate-hinge", "147-topper-tonneau", "174-trunk-lid-hinge", "170-trunk-hatch-tailgate", "173-valance-rear"]},
+    {cat:"Safety","test": ["253-air-bag", "206-headrest", "613-horn", "181-keys-latches-locks", "210-seat-belt-front", "611-seat-belt-motor", "212-seat-belt-rear", "211-seat-belt-track-electric", "616-window-defogger-rear"]},
+    {cat:"Suspension-Steering","test": ["517-air-coil-spring", "598-body-chassis-mounts", "548-chassis-sensor", "477-crossmember-k-frame", "558-drag-link", "500-frame", "501-frame-front", "503-frame-horn", "502-frame-rails-upper-and-lower", "520-front-axle-beam-2wd", "510-front-knee", "516-front-leaf-spring", "515-front-spindle-knuckle", "538-hub", "559-idler-arm", "509-knuckle-support", "476-loaded-beam-axle", "512-lower-control-arm-front", "513-lower-control-arm-rear", "599-misc-steering-suspension", "557-pitman-arm", "550-power-steering", "549-power-steering-cooler", "556-power-steering-pressure-cylinder", "555-power-steering-pressure-hose", "553-power-steering-pump", "567-power-steering-reservoir", "554-power-steering-valve", "514-radius-arm-front", "490-rear-knuckle-stub", "518-rear-leaf-spring", "475-rear-suspension", "508-retainer", "526-shock-absorber", "504-spring-hanger", "524-stabilizer-bar", "238-steering-column", "551-steering-gear-rack", "527-strut", "528-strut-tower-brace", "522-suspension-pump", "523-suspension-trunion-arm", "552-tie-rod", "521-torsion-bar", "525-track-watts-linkage", "511-upper-control-arm-front", "505-upper-control-arm-rear"]},
+    {cat:"Transmission","test": ["414-automatic-transmission-oil-cooler", "416-automatic-transmission-pan", "408-bell-housing", "410-clutch-disc", "417-clutch-master-cylinder", "418-clutch-slave-cylinder", "422-crossmember-transmission", "444-differential", "639-drivetrain-sensor", "409-flywheel-flex-plate", "430-front-drive-shaft", "405-misc-automatic-transmission-parts", "404-misc-manual-transmission-parts", "401-overdrive-unit", "406-pressure-plate", "431-rear-drive-shaft", "407-torque-converter", "403-transaxle-housing", "412-transfer-case", "411-transfer-case-adapter", "420-transfer-case-motor", "400-transmission", "413-transmission-pump", "419-transmission-valve-body", "432-yoke-u-joint"]},
+    {cat:"Wheels","test": ["580-center-cap-wheel", "564-jack", "566-spare-wheel-carrier", "563-spare-wheel-parts", "585-tires", "575-trim-ring", "560-wheel", "561-wheel-bearing-front", "562-wheel-bearing-rear", "570-wheel-cover-hubcap"]},
+]
+
+
+const test = category.find(({cat})=> cat === "Doors")
+
+const catform = document.querySelector("#cat")
+const part = document.querySelector("#part")
+const make = document.querySelector('#make')
+const model = document.querySelector('#model')
+const year = document.querySelector('#year')
+const form = document.querySelector("form")
+
+catform.addEventListener("change",()=>{
+    part.innerHTML = " "
+    const value =  category.find(({cat})=> cat === catform.value)
+    for(let i=0; i<value.test.length; i++){
+        const x = document.createElement('option')
+        x.value = value.test[i]
+        const val = value.test[i].slice(3).replaceAll("-"," ").toUpperCase()
+        x.text = val
+        part.appendChild(x)
+     }
+})
+const inventory = [
+    {name:'Select','mod':['Select Model',]},
+    {name: 'AMC', 'mod':['Select',"American", "Amx", "Classic", "Concord", "Eagle", "Gremlin", "Hornet", "Javelin", "Marlin", "Pacer", "Rambler", "Rebel", "Spirit",]},
+    {name: 'Audi', 'mod':['Select',"100", "200", "4000", "5000", "80", "90", "A3", "A4", "A5", "A6", "A7", "A8", "Allroad", "Cabriolet Coupe", "Coupe GT", "Coupe Quattro", "FOX", "Q3", "Q5", "Q7", "Quattro", "R8", "RS4", "RS5", "RS6", "RS7", "S3", "S4", "S5", "S6", "S7", "S8", "S90", "SQ5", "TT", "V8",]},
+    {name: 'Acura', 'mod':['Select ',"CL", "CSX", "EL", "ILX", "Integra", "Legend", "MDX", "NSX", "RDX", "RL", "RLX", "RSX", "SLX", "TL", "TLX", "TSX", "Vigo", "ZDX",]},
+    {name:'Alfa_Romeo','mod':['Select', "1600", "164", "1750", "2000", "2000-Spider", "4C", "GTV6", "Milano", "Spider",]},
+    {name:'BMW','mod':['Select ',"128i", "135i", "1800", "2002", "228i", "230i", "2500", "2800", "3", "318i", "320i", "323i", "325e", "325i", "328i", "328i GT", "330i", "330i", "330i", "330i GT", "330i GT", "330i GT", "335i", "335i GT", "340i", "340i", "340i GT", "340i GT", "428i", "435i", "435i", "440i", "440i", "524TD", "525i", "528e", "528i", "530i", "533i", "535i", "535i GT", "540i", "545i", "550i", "550i GT", "630C Si", "633C Si", "635C Si", "640i", "733i", "740e", "740e", "740i", "745i", "750i", "760i", "840i", "850i", "ACTIVEHYBRID 3", "ACTIVEHYBRID 5", "ACTIVEHYBRID 7", "ALPINA B6", "ALPINA B7", "i3", "i8", "i8", "L6", "M1", "M2", "M2", "M235i", "M3", "M4", "M5", "M6", "X1", "X3", "X4", "X5", "X5M", "X5M", "X6", "X6M", "Z3", "Z4", "Z8",]},
+    {name:'British_Leyland','mod':['Select ',"British-Leyland_Austin", "British-Leyland_MG", "British-Leyland_Triumph",]},
+    {name:'Buick','mod':['Select ', "Allure", "Apollo", "Buick", "Buick Special", "Century", "Electra", "Enclave", "ENCORE", "Lacrosse", "Lesabre", "Lucerne", "Park Avenue", "Rainier", "Reatta", "Regal", "Riviera", "Roadmaster", "Skyhawk", "Skylark", "Somerset", "Terraza",]},
+    {name:'Cadillac','mod':['Select ',"Allante", "ATS", "Brougham", "Cadillac", "Catera", "Cimarron", "CTS", "Deville", "DTS", "Eldorado", "ELR", "Escalade", "Escalade ESV", "Escalade EXT", "Fleetwood", "Seville", "SRX", "STS", "XLR", "XTS",]},
+    {name:'Chevy','mod':['Select ',"Avalanche 1500", "Avalanche 2500", "Aveo", "Beretta", "Camaro", "Caprice", "Cavalier", "Celebrity", "Chevelle", "Chevette", "Chevy 10", "Chevy 10", "Chevy 20", "CHEVY 20 VAN", "Chevy 1500", "Chevy 20", "CHEVY 20 VAN", "Chevy 2500", "Chevy 30", "CHEVY 30 VAN", "Chevy 3100", "Chevy 3500", "Chevy 3600", "Chevy 3800", "Chevy-II", "Citation", "Cobalt", "Colorado", "Corsica", "Corvair", "Corvette", "Cruze", "Equinox", "Forward Control", "HHR", "Impala", "Lumina", "Lumina Van", "Luv", "Malibu", "Metro", "Monte Carlo", "Monza", "Nova", "Omega", "Optra", "Passenger", "Phoenix", "Prizm", "Silverado 1500", "Silverado 2500", "Silverado 3500", "SONIC", "SPARK", "Spectrum", "Sprint", "Sprint", "SS CAPRICE", "SSR", "Storm", "Suburban 10", "Suburban 1000", "Suburban 1500", "Suburban 20", "Suburban 2500", "Suburban 30", "Tahoe", "Tracker", "Trailblazer", "Trailblazer EXT", "Traverse", "TRAX", "Uplander", "Van", "Vega", "Ventura II", "Venture", "VERANO", "VOLT",]},
+    {name:'Chrysler','mod':['Select ',"100 VAN", "150 VAN", "1500 VAN", "200", "200 VAN", "250 VAN", "2500 VAN", "300", "300 VAN", "350 VAN", "3500 VAN", "400 PICKUP", "5th Avenue", "Arrow pass", "Arrow Truck", "Aspen", "Cirrus", "Concorde", "Conquest", "Cordoba", "Crossfire", "Dart", "Desoto", "E-Class", "Horizon", "Lebaron", "LHS", "NEW YORKER", "New Yorker FWD", "Newport", "Pacifica", "PLYMOUTH 100 VAN", "PLYMOUTH 150 Van", "PLYMOUTH 200 VAN", "PLYMOUTH 250 VAN", "PLYMOUTH 300 VAN", "PLYMOUTH 350 VAN", "PROMASTER 1500", "PROMASTER 2500", "PROMASTER CITY", "PT Cruiser", "Raider", "RWD", "Sebring", "SPRINTER", "Town Country", "Trail Duster", "Voyager",]},
+    {name:'Cooper','mod':['Select ',"CLUBMAN", "COUNTRYMAN", "Mini", "PACEMAN"]},
+    {name:'Daewoo','mod':['Select ',"Lanos", "Leganza", "Nubira"]},
+    {name:'Daihatsu','mod':['Select ',"Charade", "Rocky"]},
+    {name:'Dodge','mod':['Select', "100", "150", "1500", "200", "250", "2500", "300", "350", "3500", "400", "450", "600", "Aries", "Avenger", "Caliber", "Caravan", "Challenger", "Charger", "Colt", "D50", "Dakota", "Daytona", "Diplomat", "Durango", "Dynasty", "Imperial", "Intrepid", "Journey", "Lancer", "Laser", "Magnum", "Mirada", "Monaco", "Neon", "Nitro", "Omni", "Passenger", "Ram", "Rampage", "Shadow", "Spirit", "Sprinter", "ST Regis", "Stealth", "Stratus", "Van", "Viper", "Voyager",]},
+    {name:'Eagle','mod':['Select',"2000 GTX", "Premier", "Summit", "Talon", "Vision"]},
+    {name:'Fiat_Lancia','mod':['Select', "1100R", "124", "124 SPIDER", "128", "131", "500", "850", "Lancia", "Strada", "X-1-9",]},
+    {name:'Ford','mod':['Select', "Aerostar", "Aspire", "Bronco", "Bronco II", "C-MAX", "Contour", "Cortina", "Courier", "Crown Victoria", "E100 VAN", "E150 VAN", "E200 VAN", "E250 VAN", "E300 VAN", "E350 VAN", "E450SD VAN", "E550SD VAN", "Edge", "Escape", "Escort", "Excursion", "Exp", "Expedition", "Explorer", "F100", "F150", "F150 Raptor", "F250", "F250SD", "F350", "F350SD", "F450", "F450SD", "F550SD Van", "Fairlane", "Fairmont", "Falcon", "Festiva", "Fiesta", "Five Hundred", "Flex", "Focus", "Ford GT", "Forward Control", "Freestar", "Freestyle", "Fusion", "Granada", "LN7", "LTD", "LTD II", "Maverick", "Mercury", "Mustang", "Passenger", "Pinto", "Probe", "Ranger", "Taurus", "Taurus X", "Tempo", "Thunderbird", "Torino", "TRANSIT 150", "TRANSIT 250", "TRANSIT 350", "TRANSIT Connect", "Van", "Windstar",]},
+    {name:'GM','mod':['Select',"1000 VAN", "1500 VAN", "2500 VAN", "3500", "3500 VAN", "BOLT", "CAPTIVA SPORT", "CASCADA", "CITY EXPRESS", "CT6", "ENVISION", "EXPRESS 1500 VAN", "EXPRESS 2500 VAN", "EXPRESS 3500 VAN", "ORLANDO", "SAVANA 1500 VAN", "SAVANA 2500 VAN", "SAVANA 1500 VAN", "XTS",]},
+    {name:'GMC','mod':['Select',"1000", "1000 Pickup", "1500 Pickup", "2000", "2500 Pickup", "3500 Pickup", "6000", "Acadia", "Acadian", "Canyon", "Denali", "Envoy", "Envoy XL", "Envoy XUV", "Forward Control", "Jimmy", "Jimmy S15", "Safari", "Sierra 1500", "Sierra 2500", "Sierra 3500", "SIERRA DENALI 1500", "SIERRA DENALI 2500", "SIERRA DENALI 3500", "Sonoma", "Syclone", "Terrain", "Typhoon", "Van", "XL 1500", "XL 2500", "Yukon",]},
+    {name:'Honda','mod':['Select',"600", "Accord", "Civic", "Crosstour", "CRV", "CRX", "CRZ", "Del Sol", "Element", "Fit", "HR-V", "Insight", "Odyssey", "Passport", "Pilot", "Prelude", "Ridgeline", "S2000",]},
+    {name:'Hummer','mod':['Select',"H2", "H3"]},
+    {name:'Hyundai','mod':['Select', "Accent", "Azera", "Elantra", "Entourage", "EQUUS", "Excel", "Genesis", "IONIQ", "Pony", "Santa Fe", "Scoupe", "Sonata", "Tiburon", "Tucson", "VELOSTER", "Veracruz", "XG",]},
+    {name:'Infiniti','mod':['Select',"EX35", "EX37", "FX", "G20", "G25", "G35", "G37", "I30", "I35", "J30", "JX35", "M30", "M35", "M37", "M45", "M56", "Q40", "Q45", "Q50", "Q60", "Q70", "QX4", "QX50", "QX56", "QX60", "QX70", "QX80",]},
+    {name:'International','mod':['Select',"Pickup","Travelall","Scout","Scout II","Truck (Big)",]},
+    {name:'Isuzu','mod':['Select',"Amigo", "Ascender", "Axiom", "Hombre", "I280", "I290", "I350", "I370", "Imark", "Impulse", "Oasis", "Optima", "Pickup", "Rodeo", "Stylus", "Trooper", "Vehicross",]},
+    {name:'Jaguar','mod':['Select',"F TYPE", "F-PACE", "S Type", "X Type", "XE", "XF", "XJ", "XJ12", "XJ6", "XJ8", "XJS", "XK", "XK8", "XKE",]},
+    {name:'Jeep','mod':['Select',"Cherokee", "CJ", "Comanche", "Commander", "Compass", "DJ", "FC", "grand-Cherokee", "Grand-Wagoneer", "J-Series", "Jeepster", "Liberty", "Patriot", "RENEGADE", "Station Wagon", "Truck", "Wagoneer", "Wrangler",]},
+    {name:'Land_Rover','mod':['Select',"Freelander", "Land Rover", "LR2", "LR3", "LR4", "Range Rover", "Range Rover Sport",]},
+    {name:' Lexus','mod':['Select', "CT200H", "ES250", "ES300", "ES300H", "ES330", "GS F", "GS200T", "GS300", "GS350", "GS400", "GS430", "GS450H", "GS460", "GX460", "GX470", "HS250H", "IS-F", "IS200T", "IS250", "IS300", "IS350", "LS400", "LS430", "LS460", "LS600 HL", "LX450", "LX470", "LX570", "NX200T", "NX300H", "RC 350", "RC F", "RC200T", "RC300", "RX300", "RX330", "RX350", "RX400H", "RX450H", "SC", "SC430",]},
+    {name:'Lincoln','mod':['Select',"Aviator", "Blackwood", "Continental", "LS", "LT", "Mark Series", "MKC", "Navigator", "Town Car", "Versailles", "Zephyr",]},
+    {name:' Mazda','mod':['Select', "1200", "1800", "2", "3", "323", "5", "6", "626", "808", "929", "B1600", "B1800", "B2000", "B2200", "B2300", "B2500", "B2600", "B3000", "B4000", "CX-5", "CX7", "CX9", "GLC", "Millenia", "MPV", "MX3", "MX5", "MX6", "Navajo", "Protege", "Rotary", "RX2", "RX3", "RX4", "RX7", "RX8", "Tribute",]},
+    {name:'Mercedes_Benz','mod':['Select',"190", "200", "220", "230-4", "230-6", "240D", "250", "260E", "280", "300D", "300E", "300E", "350", "380", "400", "420", "450", "500", "560", "600", "B-Class", "C-Class", "CL-Class", "CLA-CLASS", "CLK", "CLS-Class", "E-Class", "G-Class", "GL-Class", "GLA-CLASS", "GLC-CLASS", "GLE-CLASS", "GLK-Class", "GLS-CLASS", "GT", "ML-Class", "R-Class", "S-Class", "SLC-CLASS", "SLK", "SLR", "SLS", "SMART", "SPRINTER-2500", "SPRINTER-3500",]},
+    {name:'Mercury','mod':['Select',"Bobcat", "Capri", "Comet", "Cougar", "GRAND Marquis", "Lynx", "Marauder", "Mariner", "Merkur", "Milan", "MKS", "MKT", "MKX", "MKZ", "Monarch", "Montego", "Monterey", "Mountaineer", "Mystique", "Sable", "Topaz", "Tracer", "Villager",]},
+    {name:'Mitsubishi','mod':['Select',"3000GT", "Cordia", "Diamante", "Eclipse", "Endeavor", "Expo", "Galant", "Lancer", "Mirage", "Montero", "Montero Sport", "Outlander", "Pickup", "PrecisP", "Raider", "Sigma", "Starion", "Tredia", "Van",]},
+    {name:'Nissan','mod':['Select',"1200", "200SX", "210", "240SX", "240Z", "260Z", "280Z", "280ZX", "300ZX", "310", "311", "350Z", "370Z", "410", "411", "510", "610", "710", "810", "Altima", "Armada", "Axxess", "B210", "Cube", "Frontier", "GTR", "Juke", "LEAF", "Maxima", "Micra", "Murano", "NV 1500", "NV 2500", "NV 3500", "NV200 NX", "Pathfinder", "Pickup", "Pulsar", "QASHQAI", "Quest", "Rogue", "ROGUE SPORT", "Sentra", "Stanza", "Titan", "TITAN XD", "Versa", "X Trail", "Xterra",]},
+    {name:'Oldsmobile','mod':['Select',"Achieva", "Alero", "Aurora", "Bravada", "Calais", "Ciera", "Custom Cruiser", "Cutlass", "Eighty Eight", "Firenza", "Intrigue", "Ninety Eight", "Olds", "Silhouette", "Starfire", "Toronado",]},
+    {name:'Opel','mod':['Select',"Opel"]},
+    {name:'Peugeot','mod':['Select',"304", "404", "405", "504", "505", "604"]},
+    {name:'Plymouth','mod':['Select', "Acclaim", "Barracuda", "Breeze", "Caravelle", "Champ", "Gran Fury", "Passenger", "Plymouth Van", "Prowler", "Reliant", "Sapporo", "Scamp", "Sundance", "Valiant", "Vista", "Volare", ]},
+    {name:'Pontiac','mod':['Select', "Astre", "Aztek", "Bonneville", "Catalina", "Fiero", "Firebird", "Firefly", "G3", "G5", "G6", "G8", "Grand Am", "Grand Prix", "GTO", "Le Mans", "Montana", "Parisienne", "Pontiac", "Pursuit", "Relay", "Rendezvous", "Solstice", "Sunbird", "Sunburst", "Sunfire", "Sunrunner", "Tempest", "Torrent", "Trans Sport", "Vibe",]},
+    {name:'Porsche','mod':['Select', "356", "911", "912", "914", "918", "924", "928", "944", "968", "Boxster", "Carrera", "Cayenne", "Cayman", "MACAN", "Panamera",]},
+    {name:'Renault','mod':['Select',"Alliance", "Encore", "Medallion"]},
+    {name:'Rover','mod':['Select',"DISCOVERY", "Discovery Sport", "EVOQUE"]},
+    {name:'Saab','mod':['Select',"9-3", "9-5", "9-7", "900", "9000", "92X", "93", "95", "96", "99",]},
+    {name:'Saturn','mod':['Select',"Aura", "Ion", "Outlook", "Saturn L", "Saturn S", "Sky", "Vue"]},
+    {name:'Scion','mod':['Select',"FR-S", "IA", "IM", "IQ", "Scion TC", "Scion XA", "Scion XB", "Scion XD",]},
+    {name:'Subaru','mod':['Select',"Baja", "BR-Z", "Brat", "Forester", "Impreza", "Justy", "Legacy", "Loyale", "Passenger", "SVX", "Tribeca", "WRX", "XT", "XV CROSSTREK",]},
+    {name:'Suzuki','mod':['Select', "Aerio", "Esteem", "Forenza", "Kizashi", "Reno", "Samurai", "Sidekick", "Swift", "SX4", "Verona", "Vitara", "X90",]},
+    {name:'Toyota','mod':['Select',"4Runner", "86", "Avalon", "Camry", "Celica", "COROLLA IM", "COROLLA IM", "Corona", "Corona Mark", "Cressida", "Echo", "FJ Cruiser", "FX", "Highlander", "Land Cruiser", "Matrix", "MIRAI", "MR2", "Paseo", "Pickup", "Previa", "Prius", "Rav4", "Sequoia", "Sienna", "Solara", "Starlet", "Supra", "T100", "Tacoma", "Tercel", "Tundra", "Van Wagon", "Venza", "Yaris", "YARIS IA",]},
+    {name:'Volkswagen','mod':['Select', "411", "Beetle", "Cabriolet", "Corrado", "Dasher", "Eos", "Eurovan", "Fox", "Golf", "GOLF GTI", "Jetta", "JETTA GLI", "Passat", "Phaeton", "Quantum", "Rabbit", "Routan", "Scirocco", "Tiguan", "Touareg", "Vanagon", "VW CC",]},
+    {name:'Volvo','mod':['Select', "164", "1800", "240", "740", "760", "780", "850", "940", "960", "C30", "S40", "S60", "S70", "S80", "S90", "V50", "V60", "V90", "XC60", "XC90",]},
+    {name:'Yugo','mod':['Select',"GV"]},
+  ];
+  make.addEventListener('change',(e)=>{
+    model.innerHTML = ''
+      const result = inventory.find( ({ name }) =>  name === make.value );
+      for(let i=0; i<result.mod.length; i++){
+      const x = document.createElement('option')
+      x.value = result.mod[i]
+      x.text = result.mod[i]
+      model.appendChild(x)
+   }
+  })
+</script>
+</body>
+</html>

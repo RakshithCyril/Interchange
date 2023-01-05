@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="../images/fav.PNG" type="image/x-icon">
+    <title>Interchange</title>
+    <style>
+        body{
+        background:#00000090;
+        background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    height: auto;
+    background-image: url('/static/images/background.png')
+
+}
+h1{
+    margin-left: 60px;
+    margin-top: 60px;
+    /* font-family: 'Smooch', cursive; */
+    font-family: 'Staatliches', cursive;
+    color:white;
+    font-size: 64px;
+    /* color: red; */
+}
+ul{
+    margin-left: 100px;
+
+}
+ul li{
+    font-size: 20px;
+    color: white;
+    font-size: 600;
+}
+h3{
+    font-family: 'Smooch', cursive;
+    /* font-weight: 600; */
+    font-size: 40px;
+    color: white;
+    margin-left:140px;
+}
+.test{
+margin-top:40px;
+}
+    </style>
+</head>
+<body>
+    <h1>result</h1>
+    <h3>Here's what I found</h3>
+            <p class="test">
+            {% for i in phoe %}
+                <ul>
+        <li class="li">
+            {{i[0]}}-{{i[1]}} {{i[2]}}
+        </li>
+        </ul>
+
+                {% endfor %}
+</p>
+
+</body>
+<script type="text/javascript">
+    const li = document.querySelectorAll('.li').value
+    li.toUpperCase()
+</script>
+</html>
